@@ -14,7 +14,7 @@ function LoginComponent() {
       // User successfully logged in, you can now redirect to the protected page.
       navigate("/protected");
     } catch (error) {
-      console.error("Login error", error);
+        alert("Sorry, Invalid Username or Password !");
       // Handle and display the error to the user, if needed
     }
   };
